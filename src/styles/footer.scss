@@ -1,0 +1,14 @@
+.credit {
+ padding: 2rem;
+ text-align: center;
+ background-color: var(--secondary-color);
+ color: var(--white);
+ font-size: 2rem;
+ cursor: pointer;
+
+ span{
+   color: var(--primary-color);
+   font-style: italic;
+   font-weight: bold;
+ }
+}

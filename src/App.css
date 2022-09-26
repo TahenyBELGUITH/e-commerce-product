@@ -1,3 +1,32 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  font-family: 'Abyssinica SIL', serif;
+  list-style: none;
 }
+
+:root {
+  --primary-color: #ff7f50;
+  --secondary-color: #2d0002;
+  --white: #fff;
+  --text-color: #d3d3d3;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6.5rem;
+}
+
+/* img {
+  width: 100%;
+} */

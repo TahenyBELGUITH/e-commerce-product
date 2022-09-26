@@ -3,7 +3,7 @@ import axios from 'axios';
 import API_URL from '../api';
 
 const FETCH_PRODUCTS = 'FETCH_PRODUCTS';
-const initialState = {};
+const initialState = [];
 
 const productsReducer = (state = initialState, action) => {
   switch (action.type) {
