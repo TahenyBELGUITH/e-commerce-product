@@ -1,9 +1,8 @@
-import "./App.css";
-import { Route, Routes } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Products from "./components/Products";
-import Footer from "./components/Footer";
-// import ProductsDetails from "./components/ProductsDetails";
+import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Products from './components/Products';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Products />} />
-        {/* <Route path="/products/:id" element={<ProductsDetails />} /> */}
       </Routes>
       <Footer />
     </>
