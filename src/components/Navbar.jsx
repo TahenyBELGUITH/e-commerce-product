@@ -15,9 +15,6 @@ function Navbar() {
         <li>
           <NavLink to="/">Products</NavLink>
         </li>
-        <li>
-          <NavLink to="/">Contact</NavLink>
-        </li>
         <BsCartCheck />
         <BiUserCircle />
       </ul>

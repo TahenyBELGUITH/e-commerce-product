@@ -23,10 +23,7 @@ const Products = () => {
               <div className="product-inner">
                 <h2>{product.title}</h2>
                 <div className="inner">
-                  <p>
-                    $
-                    {product.price}
-                  </p>
+                  <p>${product.price}</p>
                   <div className="icons">
                     <BsFillStarFill />
                     <BsFillStarFill />
